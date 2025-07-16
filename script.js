@@ -165,5 +165,4 @@ document.getElementById('filter').addEventListener('submit', (event) => {
     }
 });
 
-
 // Borrar marcadores: clearLayers()
