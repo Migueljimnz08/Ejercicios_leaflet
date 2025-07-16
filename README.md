@@ -49,7 +49,6 @@ Utiliza datos abiertos de (https://earthquake.usgs.gov/) y está construido con 
 - Exportar resultados filtrados a CSV o tabla
 - Añadir paginación o agrupamiento de marcadores por región
 - Soporte offline (con Service Workers)
-- Traducción multilenguaje (i18n)
 
 ## 👨‍💻 Autor
 
