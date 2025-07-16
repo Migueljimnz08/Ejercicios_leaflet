@@ -3,6 +3,11 @@
 }
 
 #map {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+}
+
+#map2 {
+    height: 500px;
+    width: 500px;
 }

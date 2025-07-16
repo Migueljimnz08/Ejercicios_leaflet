@@ -19,22 +19,22 @@
     <main>
         <div id="map"></div> 
         <h2>Filtrador por magnitud y fecha</h2>
-        <form action="submit">
-            <label for="mag-filter">Fitro por magnitud:</label>
-            <select name="mag-filter" id="mag-filter">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
+        <form id="filter">
+            <label for="mag-filter">Fitro por magnitud minima:</label>
+            <select name="mag-filter" id="mag-filter" required>
+                <option value='0'>0</option>
+                <option value='1'>1</option>
+                <option value='2'>2</option>
+                <option value='3'>3</option>
+                <option value='4'>4</option>
+                <option value='5'>5</option>
+                <option value='6'>6</option>
+                <option value='7'>7</option>
             </select>
-            <label for="fecha-inicio">Filtro por fecha inicial</label>
-            <input type="date" name="fecha-inicio" id="fecha-inicio">
-            <label for="fecha-final">Filtro por fecha final</label>
-            <input type="date" name="fecha-final" id="fecha-final">
+            <label for="startDate">Filtro por fecha inicial</label>
+            <input type="date" name="startDate" id="startDate" required>
+            <label for="endDate">Filtro por fecha final</label>
+            <input type="date" name="endDate" id="endDate" required>
             <button type="submit">Filtrar</button>
         </form>
         <div id="map2"></div>   
