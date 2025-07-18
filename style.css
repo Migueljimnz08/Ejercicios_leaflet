@@ -108,6 +108,10 @@ button[type="submit"]:hover {
     font-size: 2rem;
   }
 
+  button[type='submit'] {
+    width: 25%;
+  }
+
   #map,
   #map2 {
     height: 500px;
