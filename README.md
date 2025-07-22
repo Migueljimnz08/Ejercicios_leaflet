@@ -21,7 +21,7 @@ Utiliza datos abiertos de (https://earthquake.usgs.gov/) y está construido con 
 - 🧭 Estilo oscuro de mapas con Stadia Maps
 
 ## 📦 Estructura del proyecto
-
+```
 /Ejercicios_leaflet
 │
 ├── assets 
@@ -32,7 +32,7 @@ Utiliza datos abiertos de (https://earthquake.usgs.gov/) y está construido con 
 ├── leaflet.awesome-markers.js
 ├── leaflet.awesome-markers.css
 ├── README.md
-
+```
 ## 🚀 Cómo usarlo
 
 1. Clona el repositorio o descarga los archivos.
