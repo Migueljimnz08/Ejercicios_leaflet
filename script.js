@@ -117,10 +117,24 @@ document.getElementById('filter').addEventListener('submit', (event) => {
 /******************** Validacion filtro ******************/
     let msj = '';
 
+    if(!magnitud && !endDate && !startDate){
+        console.log('Por favor rellena todo el formulario');
+        msj += 'Por favor rellena todo el formulario\n';
+    }
+
     if (startDate > endDate || endDate < startDate){
         console.log('Fechas no validas');
         msj += 'Fechas no validas\n';
     }
+
+    // let currentDate = new Date() 
+    // currentDate.getFullYear();
+
+    // if(endDate.getFullYear() > currentDate){
+    //     console.log('Fecha final no valida');
+    //     msj += 'Fecha final no valida\n';
+
+    // }
 
     if (magnitud > 7 || magnitud < 0) {
         console.log('Magnitud no valida');

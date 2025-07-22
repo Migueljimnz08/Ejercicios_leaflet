@@ -24,14 +24,14 @@ Utiliza datos abiertos de (https://earthquake.usgs.gov/) y está construido con 
 
 /Ejercicios_leaflet
 │
-|-- assets
-|-- images
-|-- index.html # Estructura principal de la app
-|-- style.css # Estilos con diseño mobile first
-|-- script.js # Lógica JS y manejo del mapa y filtros
-|-- leaflet.awesome-markers.js
-|-- leaflet.awesome-markers.css
-|-- README.md
+├── assets 
+├── images             
+├── index.html # Estructura principal de la app
+├── style.css # Estilos con diseño mobile first
+├── script.js # Lógica JS y manejo del mapa y filtros
+├── leaflet.awesome-markers.js
+├── leaflet.awesome-markers.css
+├── README.md
 
 ## 🚀 Cómo usarlo
 
